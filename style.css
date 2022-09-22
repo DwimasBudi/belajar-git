@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, "Helvetica Neue";
+	background-color: black;
+}
+
+nav{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #FB5531;
+}
+.top-nav{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+}
+
+.top-nav ul{
+	list-style-type: none;
+	padding: 10px 10px 10px 10px;
+}
+
+.top-nav ul li{
+	float: left;
+	border-left: 1px solid rgba(255,255,255, 0.3);
+	line-height: 3px;
+	
+}
+
+.top-nav ul li a{
+	padding: 0px 5px;
+	color: white;
+	font-size: 13px;
+	font-weight: 300;
+	height: 16px;
+	line-height: 15.6px;
+	margin: 0px;
+	padding: 4px;
+	text-align: center;
+	
+
+}
+
+.nav-main{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.logo{
+	margin-top: -10px;
+	margin-left: -120px;
+}
+.logo img{
+	width: 110px;
+}
+
+.nav-main .search-box{
+	width: 100%;
+	background-color: white;
+}
+
+.nav-search-text{
+	width: 100%;
+}
+
+.nav-search-text ul{
+	list-style-type: none;
+}
+
+.nav-search-text ul li{
+	display: inline-block;
+}
+
+.nav-search-text ul li a{
+	margin: 5px 2px 0px 2px;
+	font-size: 12px;
+	color: white;
+}
+
+.search input{
+	background-color: white;
+	width: 630px;
+	height: 34px;
+	padding: 0px 10px;
+	border: none;
+	border-radius: 3px;
+}
+
+.search button{
+	width: 50px;
+	height: 32px;
+	background-color: white;
+	border-radius: 3px;
+	border: none;
+}
+.keranjang i{
+	font-size: 40px;
+	margin-top: -5px;
+}
+
+.nm{
+ padding: 0px 50px 0px 50px;
+}
